@@ -1,0 +1,3 @@
+C:/Users/joao_vitor/CLionProjects/AlgoritmoTrab/cmake-build-debug/CMakeFiles/edit_cache.dir
+C:/Users/joao_vitor/CLionProjects/AlgoritmoTrab/cmake-build-debug/CMakeFiles/AlgoritmoTrab.dir
+C:/Users/joao_vitor/CLionProjects/AlgoritmoTrab/cmake-build-debug/CMakeFiles/rebuild_cache.dir

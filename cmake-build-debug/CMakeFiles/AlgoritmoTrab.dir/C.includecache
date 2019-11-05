@@ -1,0 +1,46 @@
+#IncludeRegexLine: ^[ 	]*[#%][ 	]*(include|import)[ 	]*[<"]([^">]+)([">])
+
+#IncludeRegexScan: ^.*$
+
+#IncludeRegexComplain: ^$
+
+#IncludeRegexTransform: 
+
+../iup/include/iup.h
+iupkey.h
+../iup/include/iupkey.h
+iupdef.h
+../iup/include/iupdef.h
+
+../iup/include/iupdef.h
+
+../iup/include/iupkey.h
+
+C:/Users/joao_vitor/CLionProjects/AlgoritmoTrab/MainScreen.c
+MainScreen.h
+C:/Users/joao_vitor/CLionProjects/AlgoritmoTrab/MainScreen.h
+Structs.h
+C:/Users/joao_vitor/CLionProjects/AlgoritmoTrab/Structs.h
+
+C:/Users/joao_vitor/CLionProjects/AlgoritmoTrab/MainScreen.h
+stdio.h
+-
+iup.h
+-
+time.h
+-
+stdio.h
+-
+stdlib.h
+-
+ctype.h
+-
+
+C:/Users/joao_vitor/CLionProjects/AlgoritmoTrab/Structs.h
+stdio.h
+-
+stdlib.h
+-
+string.h
+-
+
