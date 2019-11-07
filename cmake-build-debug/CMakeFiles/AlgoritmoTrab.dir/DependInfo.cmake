@@ -4,12 +4,14 @@ set(CMAKE_DEPENDS_LANGUAGES
   )
 # The set of files for implicit dependencies of each language:
 set(CMAKE_DEPENDS_CHECK_C
+  "C:/Users/joao_vitor/CLionProjects/AlgoritmoTrab/Functions.c" "C:/Users/joao_vitor/CLionProjects/AlgoritmoTrab/cmake-build-debug/CMakeFiles/AlgoritmoTrab.dir/Functions.c.obj"
   "C:/Users/joao_vitor/CLionProjects/AlgoritmoTrab/MainScreen.c" "C:/Users/joao_vitor/CLionProjects/AlgoritmoTrab/cmake-build-debug/CMakeFiles/AlgoritmoTrab.dir/MainScreen.c.obj"
   "C:/Users/joao_vitor/CLionProjects/AlgoritmoTrab/MenuScreen.c" "C:/Users/joao_vitor/CLionProjects/AlgoritmoTrab/cmake-build-debug/CMakeFiles/AlgoritmoTrab.dir/MenuScreen.c.obj"
   "C:/Users/joao_vitor/CLionProjects/AlgoritmoTrab/MonitorSize.c" "C:/Users/joao_vitor/CLionProjects/AlgoritmoTrab/cmake-build-debug/CMakeFiles/AlgoritmoTrab.dir/MonitorSize.c.obj"
-  "C:/Users/joao_vitor/CLionProjects/AlgoritmoTrab/NewFile.c" "C:/Users/joao_vitor/CLionProjects/AlgoritmoTrab/cmake-build-debug/CMakeFiles/AlgoritmoTrab.dir/NewFile.c.obj"
   "C:/Users/joao_vitor/CLionProjects/AlgoritmoTrab/UserLogin.c" "C:/Users/joao_vitor/CLionProjects/AlgoritmoTrab/cmake-build-debug/CMakeFiles/AlgoritmoTrab.dir/UserLogin.c.obj"
+  "C:/Users/joao_vitor/CLionProjects/AlgoritmoTrab/UserRecipeScreen.c" "C:/Users/joao_vitor/CLionProjects/AlgoritmoTrab/cmake-build-debug/CMakeFiles/AlgoritmoTrab.dir/UserRecipeScreen.c.obj"
   "C:/Users/joao_vitor/CLionProjects/AlgoritmoTrab/UserRegister.c" "C:/Users/joao_vitor/CLionProjects/AlgoritmoTrab/cmake-build-debug/CMakeFiles/AlgoritmoTrab.dir/UserRegister.c.obj"
+  "C:/Users/joao_vitor/CLionProjects/AlgoritmoTrab/ViewRegistry.c" "C:/Users/joao_vitor/CLionProjects/AlgoritmoTrab/cmake-build-debug/CMakeFiles/AlgoritmoTrab.dir/ViewRegistry.c.obj"
   "C:/Users/joao_vitor/CLionProjects/AlgoritmoTrab/main.c" "C:/Users/joao_vitor/CLionProjects/AlgoritmoTrab/cmake-build-debug/CMakeFiles/AlgoritmoTrab.dir/main.c.obj"
   )
 set(CMAKE_C_COMPILER_ID "GNU")

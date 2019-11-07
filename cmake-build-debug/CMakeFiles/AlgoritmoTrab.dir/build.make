@@ -98,24 +98,10 @@ CMakeFiles/AlgoritmoTrab.dir/MainScreen.c.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/AlgoritmoTrab.dir/MainScreen.c.s"
 	C:\mingw64\bin\gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S C:\Users\joao_vitor\CLionProjects\AlgoritmoTrab\MainScreen.c -o CMakeFiles\AlgoritmoTrab.dir\MainScreen.c.s
 
-CMakeFiles/AlgoritmoTrab.dir/NewFile.c.obj: CMakeFiles/AlgoritmoTrab.dir/flags.make
-CMakeFiles/AlgoritmoTrab.dir/NewFile.c.obj: CMakeFiles/AlgoritmoTrab.dir/includes_C.rsp
-CMakeFiles/AlgoritmoTrab.dir/NewFile.c.obj: ../NewFile.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=C:\Users\joao_vitor\CLionProjects\AlgoritmoTrab\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_4) "Building C object CMakeFiles/AlgoritmoTrab.dir/NewFile.c.obj"
-	C:\mingw64\bin\gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles\AlgoritmoTrab.dir\NewFile.c.obj   -c C:\Users\joao_vitor\CLionProjects\AlgoritmoTrab\NewFile.c
-
-CMakeFiles/AlgoritmoTrab.dir/NewFile.c.i: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/AlgoritmoTrab.dir/NewFile.c.i"
-	C:\mingw64\bin\gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E C:\Users\joao_vitor\CLionProjects\AlgoritmoTrab\NewFile.c > CMakeFiles\AlgoritmoTrab.dir\NewFile.c.i
-
-CMakeFiles/AlgoritmoTrab.dir/NewFile.c.s: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/AlgoritmoTrab.dir/NewFile.c.s"
-	C:\mingw64\bin\gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S C:\Users\joao_vitor\CLionProjects\AlgoritmoTrab\NewFile.c -o CMakeFiles\AlgoritmoTrab.dir\NewFile.c.s
-
 CMakeFiles/AlgoritmoTrab.dir/UserRegister.c.obj: CMakeFiles/AlgoritmoTrab.dir/flags.make
 CMakeFiles/AlgoritmoTrab.dir/UserRegister.c.obj: CMakeFiles/AlgoritmoTrab.dir/includes_C.rsp
 CMakeFiles/AlgoritmoTrab.dir/UserRegister.c.obj: ../UserRegister.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=C:\Users\joao_vitor\CLionProjects\AlgoritmoTrab\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_5) "Building C object CMakeFiles/AlgoritmoTrab.dir/UserRegister.c.obj"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=C:\Users\joao_vitor\CLionProjects\AlgoritmoTrab\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_4) "Building C object CMakeFiles/AlgoritmoTrab.dir/UserRegister.c.obj"
 	C:\mingw64\bin\gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles\AlgoritmoTrab.dir\UserRegister.c.obj   -c C:\Users\joao_vitor\CLionProjects\AlgoritmoTrab\UserRegister.c
 
 CMakeFiles/AlgoritmoTrab.dir/UserRegister.c.i: cmake_force
@@ -129,7 +115,7 @@ CMakeFiles/AlgoritmoTrab.dir/UserRegister.c.s: cmake_force
 CMakeFiles/AlgoritmoTrab.dir/MonitorSize.c.obj: CMakeFiles/AlgoritmoTrab.dir/flags.make
 CMakeFiles/AlgoritmoTrab.dir/MonitorSize.c.obj: CMakeFiles/AlgoritmoTrab.dir/includes_C.rsp
 CMakeFiles/AlgoritmoTrab.dir/MonitorSize.c.obj: ../MonitorSize.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=C:\Users\joao_vitor\CLionProjects\AlgoritmoTrab\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_6) "Building C object CMakeFiles/AlgoritmoTrab.dir/MonitorSize.c.obj"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=C:\Users\joao_vitor\CLionProjects\AlgoritmoTrab\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_5) "Building C object CMakeFiles/AlgoritmoTrab.dir/MonitorSize.c.obj"
 	C:\mingw64\bin\gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles\AlgoritmoTrab.dir\MonitorSize.c.obj   -c C:\Users\joao_vitor\CLionProjects\AlgoritmoTrab\MonitorSize.c
 
 CMakeFiles/AlgoritmoTrab.dir/MonitorSize.c.i: cmake_force
@@ -143,7 +129,7 @@ CMakeFiles/AlgoritmoTrab.dir/MonitorSize.c.s: cmake_force
 CMakeFiles/AlgoritmoTrab.dir/UserLogin.c.obj: CMakeFiles/AlgoritmoTrab.dir/flags.make
 CMakeFiles/AlgoritmoTrab.dir/UserLogin.c.obj: CMakeFiles/AlgoritmoTrab.dir/includes_C.rsp
 CMakeFiles/AlgoritmoTrab.dir/UserLogin.c.obj: ../UserLogin.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=C:\Users\joao_vitor\CLionProjects\AlgoritmoTrab\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_7) "Building C object CMakeFiles/AlgoritmoTrab.dir/UserLogin.c.obj"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=C:\Users\joao_vitor\CLionProjects\AlgoritmoTrab\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_6) "Building C object CMakeFiles/AlgoritmoTrab.dir/UserLogin.c.obj"
 	C:\mingw64\bin\gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles\AlgoritmoTrab.dir\UserLogin.c.obj   -c C:\Users\joao_vitor\CLionProjects\AlgoritmoTrab\UserLogin.c
 
 CMakeFiles/AlgoritmoTrab.dir/UserLogin.c.i: cmake_force
@@ -154,15 +140,59 @@ CMakeFiles/AlgoritmoTrab.dir/UserLogin.c.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/AlgoritmoTrab.dir/UserLogin.c.s"
 	C:\mingw64\bin\gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S C:\Users\joao_vitor\CLionProjects\AlgoritmoTrab\UserLogin.c -o CMakeFiles\AlgoritmoTrab.dir\UserLogin.c.s
 
+CMakeFiles/AlgoritmoTrab.dir/ViewRegistry.c.obj: CMakeFiles/AlgoritmoTrab.dir/flags.make
+CMakeFiles/AlgoritmoTrab.dir/ViewRegistry.c.obj: CMakeFiles/AlgoritmoTrab.dir/includes_C.rsp
+CMakeFiles/AlgoritmoTrab.dir/ViewRegistry.c.obj: ../ViewRegistry.c
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=C:\Users\joao_vitor\CLionProjects\AlgoritmoTrab\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_7) "Building C object CMakeFiles/AlgoritmoTrab.dir/ViewRegistry.c.obj"
+	C:\mingw64\bin\gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles\AlgoritmoTrab.dir\ViewRegistry.c.obj   -c C:\Users\joao_vitor\CLionProjects\AlgoritmoTrab\ViewRegistry.c
+
+CMakeFiles/AlgoritmoTrab.dir/ViewRegistry.c.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/AlgoritmoTrab.dir/ViewRegistry.c.i"
+	C:\mingw64\bin\gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E C:\Users\joao_vitor\CLionProjects\AlgoritmoTrab\ViewRegistry.c > CMakeFiles\AlgoritmoTrab.dir\ViewRegistry.c.i
+
+CMakeFiles/AlgoritmoTrab.dir/ViewRegistry.c.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/AlgoritmoTrab.dir/ViewRegistry.c.s"
+	C:\mingw64\bin\gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S C:\Users\joao_vitor\CLionProjects\AlgoritmoTrab\ViewRegistry.c -o CMakeFiles\AlgoritmoTrab.dir\ViewRegistry.c.s
+
+CMakeFiles/AlgoritmoTrab.dir/UserRecipeScreen.c.obj: CMakeFiles/AlgoritmoTrab.dir/flags.make
+CMakeFiles/AlgoritmoTrab.dir/UserRecipeScreen.c.obj: CMakeFiles/AlgoritmoTrab.dir/includes_C.rsp
+CMakeFiles/AlgoritmoTrab.dir/UserRecipeScreen.c.obj: ../UserRecipeScreen.c
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=C:\Users\joao_vitor\CLionProjects\AlgoritmoTrab\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_8) "Building C object CMakeFiles/AlgoritmoTrab.dir/UserRecipeScreen.c.obj"
+	C:\mingw64\bin\gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles\AlgoritmoTrab.dir\UserRecipeScreen.c.obj   -c C:\Users\joao_vitor\CLionProjects\AlgoritmoTrab\UserRecipeScreen.c
+
+CMakeFiles/AlgoritmoTrab.dir/UserRecipeScreen.c.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/AlgoritmoTrab.dir/UserRecipeScreen.c.i"
+	C:\mingw64\bin\gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E C:\Users\joao_vitor\CLionProjects\AlgoritmoTrab\UserRecipeScreen.c > CMakeFiles\AlgoritmoTrab.dir\UserRecipeScreen.c.i
+
+CMakeFiles/AlgoritmoTrab.dir/UserRecipeScreen.c.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/AlgoritmoTrab.dir/UserRecipeScreen.c.s"
+	C:\mingw64\bin\gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S C:\Users\joao_vitor\CLionProjects\AlgoritmoTrab\UserRecipeScreen.c -o CMakeFiles\AlgoritmoTrab.dir\UserRecipeScreen.c.s
+
+CMakeFiles/AlgoritmoTrab.dir/Functions.c.obj: CMakeFiles/AlgoritmoTrab.dir/flags.make
+CMakeFiles/AlgoritmoTrab.dir/Functions.c.obj: CMakeFiles/AlgoritmoTrab.dir/includes_C.rsp
+CMakeFiles/AlgoritmoTrab.dir/Functions.c.obj: ../Functions.c
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=C:\Users\joao_vitor\CLionProjects\AlgoritmoTrab\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_9) "Building C object CMakeFiles/AlgoritmoTrab.dir/Functions.c.obj"
+	C:\mingw64\bin\gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles\AlgoritmoTrab.dir\Functions.c.obj   -c C:\Users\joao_vitor\CLionProjects\AlgoritmoTrab\Functions.c
+
+CMakeFiles/AlgoritmoTrab.dir/Functions.c.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/AlgoritmoTrab.dir/Functions.c.i"
+	C:\mingw64\bin\gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E C:\Users\joao_vitor\CLionProjects\AlgoritmoTrab\Functions.c > CMakeFiles\AlgoritmoTrab.dir\Functions.c.i
+
+CMakeFiles/AlgoritmoTrab.dir/Functions.c.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/AlgoritmoTrab.dir/Functions.c.s"
+	C:\mingw64\bin\gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S C:\Users\joao_vitor\CLionProjects\AlgoritmoTrab\Functions.c -o CMakeFiles\AlgoritmoTrab.dir\Functions.c.s
+
 # Object files for target AlgoritmoTrab
 AlgoritmoTrab_OBJECTS = \
 "CMakeFiles/AlgoritmoTrab.dir/main.c.obj" \
 "CMakeFiles/AlgoritmoTrab.dir/MenuScreen.c.obj" \
 "CMakeFiles/AlgoritmoTrab.dir/MainScreen.c.obj" \
-"CMakeFiles/AlgoritmoTrab.dir/NewFile.c.obj" \
 "CMakeFiles/AlgoritmoTrab.dir/UserRegister.c.obj" \
 "CMakeFiles/AlgoritmoTrab.dir/MonitorSize.c.obj" \
-"CMakeFiles/AlgoritmoTrab.dir/UserLogin.c.obj"
+"CMakeFiles/AlgoritmoTrab.dir/UserLogin.c.obj" \
+"CMakeFiles/AlgoritmoTrab.dir/ViewRegistry.c.obj" \
+"CMakeFiles/AlgoritmoTrab.dir/UserRecipeScreen.c.obj" \
+"CMakeFiles/AlgoritmoTrab.dir/Functions.c.obj"
 
 # External object files for target AlgoritmoTrab
 AlgoritmoTrab_EXTERNAL_OBJECTS =
@@ -170,15 +200,17 @@ AlgoritmoTrab_EXTERNAL_OBJECTS =
 AlgoritmoTrab.exe: CMakeFiles/AlgoritmoTrab.dir/main.c.obj
 AlgoritmoTrab.exe: CMakeFiles/AlgoritmoTrab.dir/MenuScreen.c.obj
 AlgoritmoTrab.exe: CMakeFiles/AlgoritmoTrab.dir/MainScreen.c.obj
-AlgoritmoTrab.exe: CMakeFiles/AlgoritmoTrab.dir/NewFile.c.obj
 AlgoritmoTrab.exe: CMakeFiles/AlgoritmoTrab.dir/UserRegister.c.obj
 AlgoritmoTrab.exe: CMakeFiles/AlgoritmoTrab.dir/MonitorSize.c.obj
 AlgoritmoTrab.exe: CMakeFiles/AlgoritmoTrab.dir/UserLogin.c.obj
+AlgoritmoTrab.exe: CMakeFiles/AlgoritmoTrab.dir/ViewRegistry.c.obj
+AlgoritmoTrab.exe: CMakeFiles/AlgoritmoTrab.dir/UserRecipeScreen.c.obj
+AlgoritmoTrab.exe: CMakeFiles/AlgoritmoTrab.dir/Functions.c.obj
 AlgoritmoTrab.exe: CMakeFiles/AlgoritmoTrab.dir/build.make
 AlgoritmoTrab.exe: CMakeFiles/AlgoritmoTrab.dir/linklibs.rsp
 AlgoritmoTrab.exe: CMakeFiles/AlgoritmoTrab.dir/objects1.rsp
 AlgoritmoTrab.exe: CMakeFiles/AlgoritmoTrab.dir/link.txt
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=C:\Users\joao_vitor\CLionProjects\AlgoritmoTrab\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_8) "Linking C executable AlgoritmoTrab.exe"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=C:\Users\joao_vitor\CLionProjects\AlgoritmoTrab\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_10) "Linking C executable AlgoritmoTrab.exe"
 	$(CMAKE_COMMAND) -E cmake_link_script CMakeFiles\AlgoritmoTrab.dir\link.txt --verbose=$(VERBOSE)
 
 # Rule to build all files generated by this target.

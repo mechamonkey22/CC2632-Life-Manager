@@ -16,24 +16,12 @@ iupdef.h
 
 ../iup/include/iupkey.h
 
-C:/Users/joao_vitor/CLionProjects/AlgoritmoTrab/MainScreen.c
-MainScreen.h
-C:/Users/joao_vitor/CLionProjects/AlgoritmoTrab/MainScreen.h
-Structs.h
-C:/Users/joao_vitor/CLionProjects/AlgoritmoTrab/Structs.h
-
-C:/Users/joao_vitor/CLionProjects/AlgoritmoTrab/MainScreen.h
-stdio.h
--
-iup.h
--
-time.h
--
+C:/Users/joao_vitor/CLionProjects/AlgoritmoTrab/Functions.h
 stdio.h
 -
 stdlib.h
 -
-ctype.h
+string.h
 -
 
 C:/Users/joao_vitor/CLionProjects/AlgoritmoTrab/Structs.h
@@ -43,4 +31,22 @@ stdlib.h
 -
 string.h
 -
+
+C:/Users/joao_vitor/CLionProjects/AlgoritmoTrab/ViewRegistry.c
+ViewRegistry.h
+C:/Users/joao_vitor/CLionProjects/AlgoritmoTrab/ViewRegistry.h
+
+C:/Users/joao_vitor/CLionProjects/AlgoritmoTrab/ViewRegistry.h
+stdio.h
+-
+stdlib.h
+-
+iup.h
+-
+string.h
+-
+Structs.h
+C:/Users/joao_vitor/CLionProjects/AlgoritmoTrab/Structs.h
+Functions.h
+C:/Users/joao_vitor/CLionProjects/AlgoritmoTrab/Functions.h
 

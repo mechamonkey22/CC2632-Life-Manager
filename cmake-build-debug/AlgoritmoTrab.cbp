@@ -76,6 +76,12 @@
 				</MakeCommands>
 			</Target>
 		</Build>
+		<Unit filename="C:/Users/joao_vitor/CLionProjects/AlgoritmoTrab/Functions.c">
+			<Option target="AlgoritmoTrab"/>
+		</Unit>
+		<Unit filename="C:/Users/joao_vitor/CLionProjects/AlgoritmoTrab/Functions.h">
+			<Option target="AlgoritmoTrab"/>
+		</Unit>
 		<Unit filename="C:/Users/joao_vitor/CLionProjects/AlgoritmoTrab/MainScreen.c">
 			<Option target="AlgoritmoTrab"/>
 		</Unit>
@@ -94,12 +100,6 @@
 		<Unit filename="C:/Users/joao_vitor/CLionProjects/AlgoritmoTrab/MonitorSize.h">
 			<Option target="AlgoritmoTrab"/>
 		</Unit>
-		<Unit filename="C:/Users/joao_vitor/CLionProjects/AlgoritmoTrab/NewFile.c">
-			<Option target="AlgoritmoTrab"/>
-		</Unit>
-		<Unit filename="C:/Users/joao_vitor/CLionProjects/AlgoritmoTrab/NewFile.h">
-			<Option target="AlgoritmoTrab"/>
-		</Unit>
 		<Unit filename="C:/Users/joao_vitor/CLionProjects/AlgoritmoTrab/Structs.h">
 			<Option target="AlgoritmoTrab"/>
 		</Unit>
@@ -109,10 +109,22 @@
 		<Unit filename="C:/Users/joao_vitor/CLionProjects/AlgoritmoTrab/UserLogin.h">
 			<Option target="AlgoritmoTrab"/>
 		</Unit>
+		<Unit filename="C:/Users/joao_vitor/CLionProjects/AlgoritmoTrab/UserRecipeScreen.c">
+			<Option target="AlgoritmoTrab"/>
+		</Unit>
+		<Unit filename="C:/Users/joao_vitor/CLionProjects/AlgoritmoTrab/UserRecipeScreen.h">
+			<Option target="AlgoritmoTrab"/>
+		</Unit>
 		<Unit filename="C:/Users/joao_vitor/CLionProjects/AlgoritmoTrab/UserRegister.c">
 			<Option target="AlgoritmoTrab"/>
 		</Unit>
 		<Unit filename="C:/Users/joao_vitor/CLionProjects/AlgoritmoTrab/UserRegister.h">
+			<Option target="AlgoritmoTrab"/>
+		</Unit>
+		<Unit filename="C:/Users/joao_vitor/CLionProjects/AlgoritmoTrab/ViewRegistry.c">
+			<Option target="AlgoritmoTrab"/>
+		</Unit>
+		<Unit filename="C:/Users/joao_vitor/CLionProjects/AlgoritmoTrab/ViewRegistry.h">
 			<Option target="AlgoritmoTrab"/>
 		</Unit>
 		<Unit filename="C:/Users/joao_vitor/CLionProjects/AlgoritmoTrab/main.c">
