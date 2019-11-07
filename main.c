@@ -10,6 +10,9 @@
 #include "MonitorSize.h"
 #include "UserRegister.h"
 #include "UserLogin.h"
+#include "ViewRegistry.h"
+#include "UserRecipeScreen.h"
+#include "Functions.h"
 
 int main(int argc, char **argv) {
     setlocale(LC_ALL, "Portuguese");
@@ -57,11 +60,17 @@ int main(int argc, char **argv) {
         else if(Win.State == CLOSE){
             break;
         }
+        else if(Win.State == REGISTRY){
+            x = UserViewReg(argc, argv);
+        }
+        else if(Win.State == RECIPE){
+            x = addRecipe(argc, argv);
+            Win.State = Win.Previous;
+        }
         if(x == IUP_CLOSE){
             break;
         }
     }
-
 
     return EXIT_SUCCESS;
 }

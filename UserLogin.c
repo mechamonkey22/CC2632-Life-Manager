@@ -2,26 +2,25 @@
 
 int accessLogin (Ihandle* self){
 
-    char* s1;
-    char* s2;
-    char s3[100];
-    // usuário
-    s1 = IupGetAttribute(Login.UserNameText, "VALUE");
-    // senha
-    s2 = IupGetAttribute(Login.PasswordText, "VALUE");
-    // diretório
-    strcpy(s3, s1);
-    // caminho do arquivo (diretorio + arquivo padrao)
-    strcat(s1, "/userpass.data");
+    char* TextUser;
+    char* TextPwd;
+    char Path_to_Registry[100];
+    char Path_to_userpass[100];
+
+    TextUser = IupGetAttribute(Login.UserNameText, "VALUE"); // usuário
+    TextPwd = IupGetAttribute(Login.PasswordText, "VALUE"); // senha
+
+    strcpy(Path_to_Registry, TextUser);// diretório --> user/
+    strcpy(Path_to_userpass, TextUser);
+    strcat(Path_to_userpass, "/userpass.data");// caminho do arquivo (user/userpass.data)
 
     // conteudo do arquivo
     char user[100];
     char pwd[100];
 
-    printf("%s\n", s3);
 
     struct stat s;
-    int err = stat(s3, &s);
+    int err = stat(Path_to_Registry, &s);
     if(-1 == err) {
         if(ENOENT == errno) {
             IupSetAttribute(Login.HiddenMsg, "TITLE", "      Usuário inexistente!");
@@ -34,40 +33,49 @@ int accessLogin (Ihandle* self){
     } else {
         if(S_ISDIR(s.st_mode)) {
             /* it's a dir */
-            FILE* file2 = fopen(s1, "r");
-            printf("nao era pra ter entrado\n");
+            FILE* file2 = fopen(Path_to_userpass, "r");
+
             int cotr = 1;
-            printf("Senha digitado agr: %s\n", s2);
-            fgets(user, 100, file2);
+
             fgets(pwd, 100, file2);
-            print(user);
-            print(pwd);
+            fgets(user, 100, file2);;
+
             fclose(file2);
-            for (int i = 0; s2[i] != 0 ; ++i) {
-                printf("%c", pwd[i]);
-                if (s2[i] != pwd[i]){
+
+            for (int i = 0; TextPwd[i] != 0 ; ++i) {
+                if (TextPwd[i] != pwd[i]){
                     cotr = 0;
                 }
             }
+
             if (cotr){
-                IupMessage("Mensagem", "Bem vindo ao 'Nome do bagui'");
+                IupMessage("Mensagem", "Bem vindo ao Life Manager v0.0.1");
+
                 // redireciona para o home do aplicação
-                control_variable = 3;
+                control_variable = CONTROL_SUCCESS;
+
                 Win.State = MAIN;
-                strcpy(UserData.User, user);
+
+                strcpy(UserData.User, TextUser);
                 strcpy(UserData.Password, pwd);
-                strcpy(UserData.Path, s3);
+                strcpy(UserData.Path, Path_to_Registry);
                 strcat(UserData.Path, "/Registry.data");
+
+                char pathCat[100];
+                strcpy(pathCat, TextUser);
+                strcpy(pathCat, "/Categories.data");
+
+                FILE *temp = fopen(pathCat, "r");
+                L.categories_FP = temp;
+                fclose(temp);
+
                 return IUP_CLOSE;
             } else{
                 IupSetAttribute(Login.HiddenMsg, "TITLE", "         Senha incorreta!");
                 IupSetAttribute(Login.HiddenMsg, "VISIBLE", "YES");
-                print(s2);
-                printf("\n");
                 return EXIT_SUCCESS;
             }
         }else{
-            printf("NÂO ENTROU EM PORRA NENHUMA\n");
             return IUP_CLOSE;
         }
     }
@@ -76,7 +84,7 @@ int accessLogin (Ihandle* self){
 int UserLogin(int argc, char **argv){
     IupOpen(&argc, &argv);
 
-    control_variable = 0;
+    control_variable = CONTROL_FAILURE;
 
     Login.Item = IupItem("Janela Inicial", NULL);
     IupSetCallback(Login.Item, "ACTION", (Icallback) ReturnMenuScreen);
@@ -88,6 +96,7 @@ int UserLogin(int argc, char **argv){
 
     Login.UserNameText = IupText(NULL);
     IupSetAttribute(Login.UserNameText, "SIZE", "75x12");
+    IupSetAttribute(Login.UserNameText, "ALIGNMENT", "ACENTER");
 
     Login.PasswordLabel = IupLabel("Senha:");
     IupSetAttribute(Login.UserNameLabel, "FONT", "Helvetica, 12");
@@ -95,6 +104,7 @@ int UserLogin(int argc, char **argv){
     Login.PasswordText = IupText(NULL);
     IupSetAttribute(Login.PasswordText, "PASSWORD", "YES");
     IupSetAttribute(Login.PasswordText, "SIZE", "75x12");
+    IupSetAttribute(Login.PasswordText, "ALIGNMENT", "ACENTER");
 
     Login.HiddenMsg = IupLabel("dddddddddddddddddddd");
     IupSetAttribute(Login.HiddenMsg, "VISIBLE", "NO");
@@ -126,7 +136,7 @@ int UserLogin(int argc, char **argv){
 
     IupClose();
 
-    if(control_variable == 0){
+    if(control_variable == CONTROL_FAILURE){
         return IUP_CLOSE;
     }else{
         return 1;

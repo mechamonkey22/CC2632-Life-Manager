@@ -5,9 +5,11 @@ int newLoginSaving (Ihandle* self){
     char* pass;
     char* confirm;
     char* user;
+
     user = IupGetAttribute(Register.UserNameText, "VALUE");
     pass = IupGetAttribute(Register.PasswordText, "VALUE");
     confirm = IupGetAttribute(Register.PasswordOKText, "VALUE");
+
     strcpy(UserData.Password, pass);
     strcpy(UserData.Confirm, confirm);
     strcpy(UserData.User, user);
@@ -33,13 +35,29 @@ int newLoginSaving (Ihandle* self){
             //IupSetAttribute(crLogin.msg, "TITLE", "              Cadastro Realizado com sucesso!");
             //upSetAttribute(crLogin.msg, "VISIBLE", "YES");
             FILE* file1 = fopen(s, "w");
-            strcat(UserData.User, "\n");
-            fputs(UserData.User, file1);
+
             fputs(UserData.Password, file1);
+
             UserData.File = file1;
+
+            char path[100];
+            char path2[100];
+            strcpy(path, UserData.User);
+            strcat(path, "/Registry.data");
+
+            FILE* temp = fopen(path, "w");
+            fclose(temp);
+
+            strcpy(path2, UserData.User);
+            strcat(path2, "/Categories.data");
+
+            FILE* temp2 = fopen(path2, "w");
+            fclose(temp2);
+
+
             fclose(file1);
             //Sleep(1000);
-            Win.State = MAIN;
+            Win.State = OREG;
             control_variable = CONTROL_SUCCESS;
             return IUP_CLOSE;
         }
